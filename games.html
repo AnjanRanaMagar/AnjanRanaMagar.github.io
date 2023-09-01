@@ -33,13 +33,14 @@
           <li><a href="index.html">Who am I?</a></li>
           <li><a href="myWork.html">My Work</a></li>
           <li><a href="">Resume</a></li>
-          <li><a href="contact.html" class="bg-success">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="more.html">MORE
             <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="blog.html">Blogs</a></li>
-              <li><a href="games.html">Games</a></li>
+              <li><a href="games.html" class="bg-success">Games</a></li>
+              <li><a href="project_links.html">Projects</a></li>
               
             </ul>
           </li>
@@ -50,10 +51,31 @@
   </nav>
     
   <div class="container-fluid">
-    <div class="container">
-        Hello Anjan
+    <div class="container" style="color: grey; text-align: center;">
+      <br>
+          <h1>Game Section is coming soon!</h1>
+          <br>
+          <div style="background-color: #DFF0D8; padding: 10px;">
+        <h4>In the mean time, here's a Dad Joke for you to enjoy!</h4>
+        <br>
+        <h3>What did a buffalo said to his son?</h3><br><br>
+        <p>Click the button to reveal the answer: <span id="hiddenWord">Bison</span></p>
+        <button onclick="revealWord()">Click me</button>
+        </div>
     </div>
   </div>
+
+    <script> 
+      function revealWord() {
+        var hiddenWord = document.getElementById("hiddenWord");
+      
+        if (hiddenWord.style.display === "none") {
+          hiddenWord.style.display = "inline"; // Show the word
+        } else {
+          hiddenWord.style.display = "none";   // Hide the word
+        }
+      }
+    </script>
 
     <footer class="container-fluid text-center" style="background-color: #f5f6f7;">
         <p style="color: grey;"> You can reach out to me directly via email given below.</p></a></p> 
