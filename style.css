@@ -53,8 +53,8 @@ p {font-size: 16px;}
     color: #fff !important;
   }
   .carousel-inner > .item > img {
-    width:80%;
-    height:650px;
+    width:60%;
+    height:850px;
   }
   /* resume.html section */
 
@@ -71,9 +71,11 @@ p {font-size: 16px;}
     }
     embed {
       width: 100%;
-      height: auto;
+      height: 400px;
     }
-   
+    #band{
+      padding:10px;
+  }
 
   /* for the work.html */
 
