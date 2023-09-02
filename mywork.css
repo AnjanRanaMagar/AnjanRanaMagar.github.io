@@ -38,7 +38,7 @@
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
     border-radius: 5px 5px 0 0;
-    width: 100%;
+    width: auto;
     height:auto;
     /* padding: 10px; */
     /* border: 10px ridge white; */
@@ -100,8 +100,8 @@ img {
 /* Style for the images within the cards */
 .card img {
   /* Add any image-specific styles here */
-  max-width: 100%; /* Ensure images don't exceed their container width */
-  height:auto;
+  max-width: auto; /* Ensure images don't exceed their container width */
+  height: auto;
 }
 
 /* Style for the text within the cards */
