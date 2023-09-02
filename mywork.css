@@ -74,15 +74,34 @@ img {
     border-radius: 10px;
   }
  
-.card div a{
-    text-decoration: none;
+  .card div a{
+      text-decoration: none;
+  }
+
+@media (max-width: 800px) {
+  /* Apply basic styles to the container and inner divs */
+.card-container {
+  /* Add any container-specific styles here */
+  text-align: left;
+  padding: 5px;
 }
 
-@media (max-width: 767px) {
-  /* Apply basic styles to the container and inner divs */
+/* Style for the individual cards */
+.card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  /* text-align: center; Center text horizontally */
+}
+
+/* Style for the images within the cards */
+.card img {
   /* Add any image-specific styles here */
   max-width: 100%; /* Ensure images don't exceed their container width */
-  height:auto;
+  height: fit-content;
 }
 
 /* Style for the text within the cards */
