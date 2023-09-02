@@ -101,7 +101,7 @@ img {
 .card img {
   /* Add any image-specific styles here */
   max-width: 100%; /* Ensure images don't exceed their container width */
-  height:auto;
+  height:400px;
 }
 
 /* Style for the text within the cards */
