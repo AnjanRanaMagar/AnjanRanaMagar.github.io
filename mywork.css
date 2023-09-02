@@ -78,7 +78,7 @@ img {
       text-decoration: none;
   }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   /* Apply basic styles to the container and inner divs */
 .card-container {
   /* Add any container-specific styles here */
@@ -101,7 +101,7 @@ img {
 img {
   /* Add any image-specific styles here */
   max-width: 100%; /* Ensure images don't exceed their container width */
-  height:400px;
+  height:auto;
 }
 
 /* Style for the text within the cards */
